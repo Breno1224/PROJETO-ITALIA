@@ -1,0 +1,107 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #E9DDC7;
+    color: #4A3525;
+}
+
+header{
+    padding-bottom: 20px;
+    margin: auto;
+    background-color: #4A3525;
+    color: #F5EBDD;
+    border: 2px solid black;
+}
+.venha{
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+   
+}
+.p_inicial{
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+
+.menu{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px; /*/espaçamento /*/
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+.menu a:hover {
+    
+    color: rgb(250, 250, 235);
+    transform: scale(1.50);
+}
+.imagem-principal{
+    border-radius: 20px;
+    border: 2px solid black;
+    height: 200px;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.inicio{
+    background-color: #F8F1E5;
+    color: #4A3525;
+    padding: 25px;
+    margin: 20px;
+    border: 1px solid #D0BFA7;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.inicio h2{
+    margin-bottom: 15px;
+}
+.inicio p {
+    line-height: 1.6;
+}
+
+.inicio details{
+    margin-top: 15px;
+    
+}
+
+.inicio summary {
+    display: inline-block;
+    background-color: #4A3525;
+    color: #F8F1E5;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.inicio summary:hover {
+    background-color: #6B3E2E;
+    transform: scale(1.10);
+}
+
+.inicio details p {
+    margin-top: 15px;
+    
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+    padding: 15px;
+}
